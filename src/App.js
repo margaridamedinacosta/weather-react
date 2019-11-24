@@ -1,14 +1,14 @@
 import React from "react";
-import Weather from "./weather";
+import SearchEngine from "./SearchEngine";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>hello </h1>
-      </header>
-      <Weather />
+      <h1>Weather App</h1>
+      <h2>Search the Weather in your city</h2>
+      <p>(or wherever you need to know)</p>
+      <SearchEngine />
     </div>
   );
 }
